@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Adam Sheppard</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section" style="margin-top: 80px;">
+    <div class="projects-info-box">
+      <h2 class="section-title">My Projects:</h2>
+      <p class = "section-subtitle">
+      This section showcases a selection of my projects over the past few years.
+      From developing engaging applications to conducting in-depth research, these
+      projects demonstrate my technical, creative and collaborative skills. Currently,
+      some of these projects are closed-source and are not on my Github, however on
+      request I am happy to provide the code.
+      </p>
+    </div>
+    <div class = "container">
+    </div>
+    <div class="container">
+      <div class="projects-grid">
+        <!-- Dissertation -->
+        <div class="project-card">
+          <img src="icons/sudoku.png" alt="Project 1 Image" class="project-image">
+          <h3>Dissertation</h3>
+          <div class = "project-description">
+            <p>During my final year at University, I researched the effectiveness of
+              applying Evolutionary Algorithms to Sudoku puzzles. This involved the design
+              and development of multiple unique Genetic Algorithms, alongside the production
+              of a ten thousand word report and twenty minute video to convey the findings 
+              of my unique research.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- Enterprise Computing -->
+        <div class="project-card">
+          <img src="icons/spreadsheet.PNG" alt="Project 2 Image" class="project-image">
+          <h3>Spreadsheet RestAPI</h3>
+          <div class = "project-description">
+            <p>A RestAPI developed in Python using the module Flask to act as a stripped down
+              version of Excel. The API supports adding, reading, updating and deleting cells,
+              alongside cell referencing. Storage is configarable using the command line to use
+              either SQLite or Firebase.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/flask.jpg" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/firebase.svg" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/sqllite.png" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- Ant Colony Optimisation Path finder -->
+        <div class="project-card">
+          <img src="icons/ant.png" alt="Project 3 Image" class="project-image">
+          <h3>ACO Pathfinder</h3>
+          <div class = "project-description">
+            <p>Implementation of the Ant Colony Optimisation (ACO) algorithm in Python
+             which attempts to solve the Travelling Salesman problem. Contains fully
+             customisable parameters including the quantity of ants, pheromone strength,
+             alongside the ability to use different variations of standard ACO, such as
+             Max-min ant System (MMAS).
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- Ecolegends -->
+        <div class="project-card">
+          <img src="icons/ecolegends.png" alt="Project 3 Image" class="project-image">
+          <h3>Ecolegends</h3>
+          <div class="project-description">
+            <p>An innovative, sustainably-focused game developed using the Django framework designed to
+              engage users in environmentally
+              conscious behaviours, promoting sustainable practises through interactive challenges,
+              earning users coins which can be used to upgrade their characters. Characters can battle
+              each other in a top trump style online game. This was developed as part of a Group Software
+              engineering project. I was responsible for front and back-end development of the application,
+              focusing mainly on user authentication, permissions and challenges aspect of the game.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/django.svg" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/html.png" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/css.svg" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- Comp Graphics -->
+        <div class="project-card">
+          <img src="icons/Graphics.PNG" alt="Project 3 Image" class="project-image">
+          <h3>OpenGL Engine</h3>
+          <div class = "project-description">
+            <p>Part of a Univeristy project which involved the creation of a game engine in Python using
+              the Pygame and pyOpenGL libraries to render 3D objects. The objective was to model a scene
+              of London being attacked by dinosaurs. My engine provided support for different types of shaders,
+              animation of models alongside movement of the camera, a custom skybox and environment mapping.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/opengl.svg" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- C-Family -->
+        <div class="project-card">
+          <img src="icons/c.png" alt="Project 3 Image" class="project-image">
+          <h3>C Programming Challenges</h3>
+          <div class = "project-description">
+            <p>This project involved the creation of a series of C programs, each designed to solve 3 unique
+              problems and tasks. These include: A tool to turn English words into Pig-latin, a mimic of
+              a riffle shuffle on a pack of cards, and finally a simulation of the game Beggar-your-neighbour.
+              This project allowed me to understand the Low-Level nature of C and understand how to implement
+              different data structures from scratch. It also allowed me to understand the importance of memory
+              management and how to avoid memory leaks.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/C_Logo.png" alt="Python Logo" class="tech-logo">
+          </div>
+        </div>
+        <!-- C-Family -->
+        <div class="project-card">
+          <img src="icons/football.png" alt="Project 3 Image" class="project-image">
+          <h3>Predicting transfer fees</h3>
+          <div class = "project-description">
+            <p>Using machine learning I attempted to predict football players transfer fees based
+              on characteristics about themselves, such as: height, age, appearances, goals etc. This project
+              was developed using Python and I used the scikit-learn library, alongside a dataset from Kaggle.
+              I used both the Linear Regression and Random Forest Regression models in this project.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python Logo" class="tech-logo">
+            <img src="code_icons/sklearn.png" alt="SKlearn" class="tech-logo">
+          </div>
+        </div>
+        <!-- Java -->
+        <div class="project-card">
+          <img src="icons/spade.png" alt="Project 3 Image" class="project-image">
+          <h3>Java Multithreader</h3>
+          <div class = "project-description">
+            <p>I developed a multithreaded card game using Java. This significantly deepened my understanding
+              of multithreading. I learned how crucial it is to properly manage resource locking to prevent race conditions
+              and ensure smooth execution in concurrent environments.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/java.png" alt="Java" class="tech-logo">
+          </div>
+        </div>
+        <!-- Tetris Website -->
+        <div class="project-card">
+          <img src="icons/tetris.PNG" alt="Project 3 Image" class="project-image">
+          <h3>Tetris Website</h3>
+          <div class = "project-description">
+            <p>For a full-stack University project, I developed a complete website hosted on a virtual private server
+              that allowed users to sign up and play a game of Tetris. The game was coded in Javascript, whilst the
+              front-end was covered with HTML and CSS and the backend with PHP. The website contained a leaderboard
+              displaying top-scoring players, with a MySQL database handling user data and scores. This project introduced
+              me to the LAMP stack, and exposed me to the Linux command-line.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/javascript.png" alt="Java" class="tech-logo">
+            <img src="code_icons/html.png" alt="Java" class="tech-logo">
+            <img src="code_icons/css.svg" alt="Java" class="tech-logo">
+            <img src="code_icons/mysql.png" alt="Java" class="tech-logo">
+            <img src="code_icons/php.svg" alt="Java" class="tech-logo">
+          </div>
+        </div>
+        <!-- Prolog -->
+        <div class="project-card">
+          <img src="icons/haskell.PNG" alt="Project 3 Image" class="project-image">
+          <h3>Prolog / Haskell Challenges</h3>
+          <div class = "project-description">
+            <p>A University project where I had to create a number of solutions to provided problems using Haskell and Prolog.
+              This was my first encounter with functional programming languages, and gave me an in depth insight and recap of recursion
+              and the importance of it in languages such as these.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/haskell_logo.png" alt="Haskell" class="tech-logo">
+            <img src="code_icons/prolog.png" alt="Prolog" class="tech-logo">
+          </div>
+        </div>
+        <!-- Maze Solver -->
+        <div class="project-card">
+          <img src="icons/maze.png" alt="Project 3 Image" class="project-image">
+          <h3>Maze Solver</h3>
+          <div class = "project-description">
+            <p>This project involved developing a maze-solver that utilised two established algorithms. I decided to use
+              a Depth-First-Search alongside the A* algorithm. In order to test the algorithms, I was provided with
+              multiple test sets containing mazes of various sizes. This enforced me to ensure the application
+              was developed as efficiently as possible to allow for it to run on the larger maze sizes.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Python" class="tech-logo">
+          </div>
+        </div>
+        <!-- COVID-19 Dashboard -->
+        <div class="project-card">
+          <img src="icons/Covid.PNG" alt="Project 3 Image" class="project-image">
+          <h3>COVID-19 Dashboard</h3>
+          <div class = "project-description">
+            <p>This was my first University project, which involved developing a COVID-19 dashboard, containing data fetched from
+              the UK government API. The interface was developed using HTML, whilst information was displayed using the Python
+              module flask. The dashboard displayed various statistics about the virus, and could be configured for any user specified
+              area. Alongside this, news articles were also shown, and all updates could be scheduled. Unfortunately due to updates
+              with the API being used, the project no longer works.
+            </p>
+          </div>
+          <div class = "tech-stack">
+            <img src="code_icons/python.png" alt="Haskell" class="tech-logo">
+            <img src="code_icons/flask.jpg" alt="Prolog" class="tech-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
+  
+  
