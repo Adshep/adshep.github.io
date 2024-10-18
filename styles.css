@@ -164,21 +164,24 @@ h1 {
   }
 }
 
-.portrait{
-  display:flex;
+.portrait {
+  position: relative; /* Needed to position the spinner correctly */
+  display: flex;
   justify-content: center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-.portrait-image{
+.portrait-image {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  object-fit:cover;
-  border:2px solid black;
+  object-fit: cover;
+  border: 2px solid black;
+  opacity: 0; /* Initially hidden until the image is loaded */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in */
 }
 
-.load_spinner {
+.spinner {
   position: absolute;
   top: 50%;
   left: 50%;
