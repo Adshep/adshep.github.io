@@ -346,6 +346,7 @@ h1 {
   font-size: 20px;
 }
 
+
 /* Container to hold project cards */
 .container {
   max-width: 1200px;
@@ -452,4 +453,66 @@ h1 {
   .section-subtitle {
     font-size:18px ;
   }
+}
+
+/* About Me Section */
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 40px 20px;
+  border: 2px solid #ff6347;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.about-text {
+  max-width: 60%;
+  color: white;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image .portrait-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
 }

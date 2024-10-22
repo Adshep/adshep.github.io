@@ -23,16 +23,64 @@
     </nav>
   </header>
   <!-- Projects Section -->
-  <section id="projects" class="projects-section" style="margin-top: 80px;">
-    <div class="projects-info-box">
-      <h2 class="section-title">About Me:</h2>
-      <p class = "section-subtitle">
-      This section is currently being developed. Come back later!
-      </p>
+  <section class="about-me-section">
+    <div class="about-content" style = "margin-top: 80px;">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hi I'm Adam, a Computer Science graduate from the University of Exeter and am 
+              actively seeking software engineering roles that offer opportunities for growth and career development.
+              I've always had a keen interest in Computer Science from a young age. This all stemmed from my interest
+              of building and tinkering with Computers from the age of 13. I began studying Computer Science
+              in Frome College, and achieved strong A-levels despite the challenging cirumstances brought from the COVID-19
+              pandemic. This led to me securing a place at the University of Exeter, where I am proud to have achieved a 
+              First-Class honours in Computer Science. I am intersted in securing a role in an innovative, forward thinking
+              company which provides training and development oppurtunities.</p>
+            <br>
+            <p>When I'm not coding, you can find me engaging in activities that help me unwind and keep my mind sharp.
+              These activities are detailed in the cards below. Alongside this, I have included a link to view my CV below.
+            </p>
+            <a href="info/download.pdf" class="cta-button" download>Download My CV</a>
+        </div>
+
+        <div class="portrait">
+        <div class="spinner"></div>
+          <img class="portrait-image" src="icons/about.png" alt="Adam Sheppard" onload="this.previousElementSibling.style.display='none'; this.style.opacity='1';" />
+        </div>
     </div>
-    <div class = "container">
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section" style="margin-top: 80px; max-height:fit-content;">
+  <div class="container">
+    <div class="projects-grid">
+      <!-- Dissertation -->
+      <div class="project-card">
+        <img src="icons/gym.png" alt="Project 1 Image" class="project-image">
+        <h3>Gym</h3>
+        <div class = "project-description">
+          <p>This Section is still being developed!
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="icons/sudoku.png" alt="Project 1 Image" class="project-image">
+        <h3>Hobby 2</h3>
+        <div class = "project-description">
+          <p>This section is still being developed!
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="icons/sudoku.png" alt="Project 1 Image" class="project-image">
+        <h3>Hobby 3</h3>
+        <div class = "project-description">
+          <p>This section is still being developed!
+          </p>
+        </div>
+      </div>
     </div>
-    </section>
+  </section>
+
 <script src="script.js"></script>
 </body>
 </html>
